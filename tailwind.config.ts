@@ -8,6 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lato: ['var(--font-lato)'],
+        rale: ['var(--font-rale)'],
+        mono : ['var(--font-space-mono)'],
+        ibm : ['var(--font-ibm)']
+        },
+      screens : {
+        'xxs':'260px',
+        'xs': '375px',
+        'sm': '600px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1024px',
+        '2xl': '1280px',
+        '3xl': '1536px',
+      } , 
+      colors: {
+        'white' :'#fff',
+        'black' : '#000',
+
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

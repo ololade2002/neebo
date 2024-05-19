@@ -2,32 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  scrollbar-color: #3d3d3d #141414;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/*Navbar Styles */
+.navText {
+  @apply font-rale uppercase px-3 font-[300] text-[15px] hover:underline underline-offset-2
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Navbar */
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: transparent;
+  z-index: 999;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.logo {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1em;
+  z-index: 1000;
 }
+
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.content {
+  width: 100%;  
+  height: 100vh;
+  position: relative;
+ 
+}
+
+.content img {
+  width: 100%;
+}
+
+img {
+  margin-bottom: 4em;
+}
+
+/* Herosection */
