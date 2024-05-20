@@ -15,7 +15,7 @@
 
 /*Navbar Styles */
 .navText {
-  @apply font-rale uppercase px-3 font-[300] text-[15px] hover:underline underline-offset-2
+  @apply font-rale uppercase px-3 font-[400] text-[14px] hover:underline underline-offset-2
 }
 
 /* Navbar */

@@ -9,10 +9,7 @@ import {useGSAP} from '@gsap/react'
 gsap.registerPlugin(useGSAP)
 gsap.registerPlugin(ScrollTrigger);
 
-
 const Navbar = () => {
-
-
   useGSAP (() => {
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -20,6 +17,7 @@ const Navbar = () => {
         start: 'top bottom',
         end: 'top center',
         scrub: 1,
+       
       }
     });
 
@@ -27,12 +25,15 @@ const Navbar = () => {
       y: '52vh',
       scale: 25,
       yPercent: -50,
-      color: 'white'
+      color: 'white',
+      duration:5,
+      
     }, {
       scale: 2.5,
       y: '50',
       color: 'white',
       ease: 'power1.inOut',
+      duration:5,
     })
     .fromTo('.navText', {
       opacity: 0,
