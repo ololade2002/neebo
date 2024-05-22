@@ -12,7 +12,7 @@ const lato = Lato({
   weight: ['100','300','400','700'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-laro',
+  variable: '--font-lato',
 })
 const ibm_plex_mono = IBM_Plex_Mono({
   weight: ['100','200','300','400','500','600','700'],

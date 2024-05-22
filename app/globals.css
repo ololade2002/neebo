@@ -13,6 +13,11 @@
   scrollbar-color: #3d3d3d #141414;
 }
 
+/*General Styles*/
+.image-c {
+  @apply w-full h-[100vh] object-cover rounded-sm
+}
+
 /*Navbar Styles */
 .navText {
   @apply font-rale uppercase px-3 font-[400] text-[14px] hover:underline underline-offset-2

@@ -12,7 +12,7 @@ const config: Config = {
         lato: ['var(--font-lato)'],
         rale: ['var(--font-rale)'],
         mono : ['var(--font-space-mono)'],
-        ibm : ['var(--font-ibm)']
+        ibm : ['var(--font-ibm_plex_mono)']
         },
       screens : {
         'xxs':'260px',
