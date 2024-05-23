@@ -37,10 +37,10 @@ const ImageCarouselSection = () => {
       infinite={true}
       arrows={false}
       autoPlay={true}
-      autoPlaySpeed={3000}
+      autoPlaySpeed={1500}
       keyBoardControl={true}
       customTransition="all .5"
-      transitionDuration={1000}
+      transitionDuration={600}
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile"]}
       dotListClass="custom-dot-list-style"

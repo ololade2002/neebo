@@ -15,13 +15,28 @@
 
 /*General Styles*/
 .image-c {
-  @apply w-full h-[100vh] object-cover rounded-sm
+  @apply w-full h-[80vh] object-cover rounded-sm
 }
 
 /*Navbar Styles */
 .navText {
   @apply font-rale uppercase px-3 font-[400] text-[14px] hover:underline underline-offset-2
 }
+
+/* Footer Styles */
+.footer-head {
+  @apply flex flex-col gap-4
+}
+.footer-text {
+  @apply font-rale font-[500] text-[20px]  text-[#111111]
+}
+.footer-ul {
+  @apply flex flex-col gap-1
+}
+.footer-li {
+  @apply font-rale text-[16px] text-[#7e7e7e] hover:text-black
+}
+
 
 /* Navbar */
 .nav {
@@ -62,8 +77,10 @@
   width: 100%;
 }
 
+/*
 img {
   margin-bottom: 4em;
 }
+*/
 
 /* Herosection */

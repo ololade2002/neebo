@@ -9,7 +9,7 @@ import ImageCarouselSection from './ImageCarouselSection'
 
 const FeatureSection = () => {
   return (
-    <section className='py-28 text-white'>
+    <section className='pt-28 text-white'>
        <main className='flex flex-row items-center gap-4'>
          <div className='w-3/12'>
            <Image className='rounded-md h-[48vh] object-cover' src={neeboHome} alt='Neebo Home'/>
@@ -22,11 +22,11 @@ const FeatureSection = () => {
          </div>
        </main>
 
-       <main className='px-11 py-24'>
+       <main className='px-11 py-28'>
         <h2 className=' text-[170px] text-center leading-[1] font-[400] text-[#ecebe9]'>YOUR FRIENDLY AI SIDEKICK</h2>
        </main>
 
-      <main className='px-11'>
+      <main className='px-11  pb-24 '>
         <div className='flex flex-row gap-8'>
           {featuresData.map((feature) => (
             <div className="feature-preview w-full text-white" key={feature.id}>
@@ -42,8 +42,8 @@ const FeatureSection = () => {
         </div>
       </main>
 
-      <main className='pl-11 pr-5 pt-24 flex flex-row  justify-center gap-12'>
-        <div className='flex flex-col w-[50%]' >
+      <main className='pl-11 pr-5 pt-24 pb-32 flex flex-row  justify-center gap-28'>
+        <div className='flex flex-col w-[60%]' >
           <div className='flex flex-row items-center py-1 px-3 w-fit gap-2 bg-[#7c7c7c1f]'>
             <div className='h-1 w-1 rounded-full bg-[rgba(255,255,255,0.6)]'></div>
             <p className='font-mono uppercase text-[13px] text-[rgba(255,255,255,0.6)]'>Design Features</p>
@@ -58,13 +58,10 @@ const FeatureSection = () => {
          
         </div>
 
-        <div className='w-[50%] '>
+        <div className='w-[40%] '>
            <ImageCarouselSection/>
         </div>
       </main>
-
-    
-
     </section>
   )
 }

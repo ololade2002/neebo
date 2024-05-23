@@ -12,6 +12,7 @@ const Home = () => {
         <TopContent/>
         <FeatureSection/>
         <DesignSection/>
+        
     </div>
   )
 }
