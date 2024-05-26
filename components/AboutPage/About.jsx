@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../NavbarSection/Navbar'
 import HeroSection from './HeroSection'
 import ImpactSection from './ImpactSection'
 import VisionSection from './VisionSection'
