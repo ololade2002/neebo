@@ -60,3 +60,51 @@ export const designData = [
     },
 
 ]
+
+export const specificationData = [
+    {
+        id:1,
+        text:'Connectivity',
+        text2:'Bluetooth 5.0 and Wi-Fi 6 for high-speed, reliable connections to devices and the internet.',
+    },
+    {
+        id:2,
+        text:'Display',
+        text2:"4-inch OLED touchscreen with adaptive brightness for clear visibility in any lighting conditions.",
+    },
+    {
+        id:3,
+        text:'Speaker',
+        text2:'High-fidelity speaker with noise-cancellation technology for crystal-clear audio.',
+    },
+    {
+        id:4,
+        text:'Microphone',
+        text2:'Array of six microphones with advanced voice recognition and spatial detection.',
+    },
+    {
+        id:5,
+        text:'Charging',
+        text2:'USB-C port for fast charging, with a full charge time of under 2 hours.',
+    },
+    {
+        id:6,
+        text:'Water Resistance',
+        text2:'IP67 rating, making Neebo resistant to dust and water splashes.',
+    },
+    {
+        id:7,
+        text:'Operating System',
+        text2:'Custom Neebo OS optimized for swift, responsive interactions.',
+    },
+    {
+        id:8,
+        text:'Storage',
+        text2:'64GB internal storage for apps, data, and personal information.',
+    },
+    {
+        id:9,
+        text:'Sensors',
+        text2:'Includes accelerometer, gyroscope, and proximity sensors for motion and environmental interaction.',
+    },
+]

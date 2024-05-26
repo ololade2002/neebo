@@ -1,16 +1,18 @@
 
 import React from 'react'
-import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/HomePage/Navbar/Navbar'
 import HomeSection from '@/components/HomePage/Home'
-import Footer from '@/components/Footer/Footer'
+import MobileNavbar from '@/components/HomePage/Navbar/MobileNavbar'
+
 
 const Home = () => {
 
   return (
     <div className='' >
     <Navbar/>
+    <MobileNavbar/>
     <HomeSection/>
-    <Footer/>
+  
     </div>
   )
 }

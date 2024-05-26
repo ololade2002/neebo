@@ -5,7 +5,6 @@ import neeboHome from '@/public/neebo-device-4.webp'
 import neeboPlus from '@/public/neebo-device-2.webp'
 import neeboPro from '@/public/neebo-device-3.webp'
 import {featuresData} from '@/utils/utilsData.js'
-import ImageCarouselSection from './ImageCarouselSection'
 
 const FeatureSection = () => {
   return (
@@ -42,8 +41,8 @@ const FeatureSection = () => {
         </div>
       </main>
 
-      <main className='pl-11 pr-5 pt-24 pb-32 flex flex-row  justify-center gap-28'>
-        <div className='flex flex-col w-[60%]' >
+      <main className='pl-11 pr-0 pt-24 pb-32 flex flex-row i items-center justify-center gap-28'>
+        <div className='flex flex-col w-[50%]' >
           <div className='flex flex-row items-center py-1 px-3 w-fit gap-2 bg-[#7c7c7c1f]'>
             <div className='h-1 w-1 rounded-full bg-[rgba(255,255,255,0.6)]'></div>
             <p className='font-mono uppercase text-[13px] text-[rgba(255,255,255,0.6)]'>Design Features</p>
@@ -58,8 +57,8 @@ const FeatureSection = () => {
          
         </div>
 
-        <div className='w-[40%] '>
-           <ImageCarouselSection/>
+        <div className='w-[50%] h-[100vh] '>
+           <Image className='h-[100vh] object-cover rounded-md' src={neeboPlus} alt='Neebo Device'/>
         </div>
       </main>
     </section>

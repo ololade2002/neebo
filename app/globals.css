@@ -15,23 +15,28 @@
 
 /*General Styles*/
 .image-c {
-  @apply w-full h-[80vh] object-cover rounded-sm
+  @apply w-full h-[100vh] object-cover rounded-xl
+}
+
+/*Form Section*/
+.form-input {
+  @apply w-full  border-b-[1px] border-neutral-600 appearance-none text-white bg-transparent outline-none  text-[20px] py-4 font-[300] font-rale px-4  placeholder:font-rale placeholder:font-[300] placeholder:text-[20px] placeholder:text-[#fff]
 }
 
 /*Navbar Styles */
 .navText {
-  @apply font-rale uppercase px-3 font-[400] text-[14px] hover:underline underline-offset-2
+  @apply font-rale uppercase px-3 font-[400] text-[13px] lg:text-[15px] hover:opacity-60
 }
 
 /* Footer Styles */
 .footer-head {
-  @apply flex flex-col gap-4
+  @apply flex flex-col gap-5
 }
 .footer-text {
   @apply font-rale font-[500] text-[20px]  text-[#111111]
 }
 .footer-ul {
-  @apply flex flex-col gap-1
+  @apply flex flex-col gap-2
 }
 .footer-li {
   @apply font-rale text-[16px] text-[#7e7e7e] hover:text-black
@@ -42,16 +47,17 @@
 .nav {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 0rem 2rem;
   background-color: transparent;
   z-index: 999;
 }
 
 .logo {
+
   position: fixed;
   top: 0;
   left: 50%;
@@ -70,17 +76,32 @@
   width: 100%;  
   height: 100vh;
   position: relative;
- 
 }
 
 .content img {
   width: 100%;
 }
-
-/*
-img {
-  margin-bottom: 4em;
+.mobileNavbar {
+  display: none;
 }
-*/
+@media screen and (max-width:768px) {
+  .mobileNav {
+    display: block;
+  }
+  .webNavigation {
+  display: none;
+  }
+}
 
-/* Herosection */
+/* Feature Page */
+.hero-shadow {
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(43, 43, 43, 0));
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}

@@ -6,13 +6,14 @@ import logo from '@/public/logo-neebo-b.svg'
 
 const Footer = () => {
   return (
-    <section className=' pt-16 px-11 bg-[#dadada] '>
-        <div className='flex pb-12 flex-row justify-between mx-auto  w-[80%]  '>
+    <section className=' pt-16  px-11 bg-[#dadada] '>
+        <div className='flex pb-16 flex-row justify-between mx-auto  w-[80%]  '>
         <div className='footer-head '>
             <h2 className='footer-text'>Explore</h2>
             <ul className='footer-ul'>
                 <li className='footer-li'>Home</li>
-                <li className='footer-li'>Services</li>
+                <li className='footer-li'>Featues</li>
+                <li className='footer-li'>Collection</li>
                 <li className='footer-li'>Blog</li>
                 <li className='footer-li'>Contact Us</li>
             </ul>
@@ -24,6 +25,8 @@ const Footer = () => {
                 <li className='footer-li'>Documentations</li>
                 <li className='footer-li'>Tutorials</li>
                 <li className='footer-li'>Community</li>
+                <li className='footer-li'>Suggestion</li>
+                <li className='footer-li'>Newsletter</li>
             </ul>
         </div>
 
@@ -44,16 +47,16 @@ const Footer = () => {
             </div>
             </div>
         </div>
-
         </div>
 
-        <div className="line  w-full h-[1px] bg-black opacity-10"></div>
-        <div className='flex justify-between py-5'>
+        <div className="line  w-full h-[1px]  bg-black opacity-10"></div>
+
+        <div className='flex justify-between pt-8 pb-16'>
             <p className='uppercase font-mono'>Neebo industry</p>
             <p className='uppercase '>&copy; <span className='font-mono'>2024 NEEBO</span></p>
         </div>
-        <div className='mx-auto flex justify-center items-center '>
-            <Image className='object-cover object-top h-[32vh] ' alt='Logo' src={logo}/>
+        <div className='mx-auto flex justify-center  items-center '>
+            <Image className='object-cover object-top h-[30vh]' alt='Logo' src={logo}/>
         </div>
     </section>
   )

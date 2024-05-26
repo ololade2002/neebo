@@ -4,6 +4,7 @@ import HeroSection from './HeroSection'
 import TopContent from './TopContent'
 import FeatureSection from './FeatureSection'
 import DesignSection from './DesignSection'
+import Footer from '@/components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
         <TopContent/>
         <FeatureSection/>
         <DesignSection/>
-        
+        <Footer/>
     </div>
   )
 }

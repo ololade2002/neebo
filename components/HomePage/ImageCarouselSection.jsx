@@ -4,8 +4,10 @@ import Image from 'next/image';
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import device from '@/public/neebo-device-1.webp'
+import device from '@/public/neebo-device-6.webp'
 import device2 from '@/public/neebo-device-2.webp'
+import device3 from '@/public/neebo-device-3.webp'
+import device4 from '@/public/neebo-device-7.webp'
 
 const ImageCarouselSection = () => {
 
@@ -37,10 +39,10 @@ const ImageCarouselSection = () => {
       infinite={true}
       arrows={false}
       autoPlay={true}
-      autoPlaySpeed={1500}
+      autoPlaySpeed={1200}
       keyBoardControl={true}
       customTransition="all .5"
-      transitionDuration={600}
+      transitionDuration={500}
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile"]}
       dotListClass="custom-dot-list-style"
@@ -53,10 +55,10 @@ const ImageCarouselSection = () => {
   <Image className='image-c' src={device2} alt='Neebo device' />
   </div>
   <div>
-  <Image className='image-c' src={device} alt='Neebo device' />
+  <Image className='image-c' src={device3} alt='Neebo device' />
   </div>
   <div>
-  <Image className='image-c' src={device2} alt='Neebo device' />
+  <Image className='image-c' src={device4} alt='Neebo device' />
   </div>
 
 </Carousel>
