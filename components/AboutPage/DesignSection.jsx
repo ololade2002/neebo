@@ -27,14 +27,14 @@ const DesignSection = () => {
         <div className='w-7/12 ml-auto '>
           <h1 className='text-[85px] text-[#fff] font-[600] capitalize font-rale leading-[1.1] pb-5'>Designed with You in Mind.</h1>  
           <h2 className='font-rale text-[23px] text-neutral-400 font-[300] pb-5'>
-          Neebo isn't just feature-rich, it&apos;s designed for effortless use. The sleek,
+          Neebo isn&apos;t just feature-rich, it&apos;s designed for effortless use. The sleek,
           minimalist form factor feels comfortable in your hand, crafted from polished aluminum that exude quality.
           The smooth, curved edges and lightweight design make it perfect for one-handed operation,
-           whether you're on the go or relaxing at home.
+           whether you&apos;re on the go or relaxing at home.
           
           </h2>
           <h2 className='font-rale text-[23px] text-neutral-400 font-[300] pb-5'>
-          The vibrant 4-inch OLED touchscreen is not only easy on the eyes but also a joy to navigate. Neebo's user interface is designed
+          The vibrant 4-inch OLED touchscreen is not only easy on the eyes but also a joy to navigate. Neebo&apos;s user interface is designed
           for clarity, with large, colorful icons and a clean layout that puts everything you need at your fingertips.Swiping through menus
           feels intuitive, and subtle haptic feedback confirms your actions for a satisfying user experience.
           </h2>

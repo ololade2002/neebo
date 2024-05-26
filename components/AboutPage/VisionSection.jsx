@@ -16,7 +16,7 @@ const VisionSection = () => {
           <h2 className='font-rale text-[23px] text-neutral-400 font-[300] pb-5'>
           Neebo is committed to providing an interface and user experience that are intuitive and easy to navigate. This means that regardless of 
           your technical expertise or familiarity with AI technology, Neebo strives to make interacting with it a seamless and straightforward experience.
-          Whether you're accessing Neebo on a computer, tablet, or smartphone, the interface remains consistent and user-friendly across all devices.
+          Whether you&apos;re accessing Neebo on a computer, tablet, or smartphone, the interface remains consistent and user-friendly across all devices.
           </h2>
           <h2 className='font-rale text-[23px] text-neutral-400 font-[300] pb-5'>
           At Neebo, we believe that AI should be accessible and helpful to everyone. Our commitment is to provide an AI companion that enhances your
@@ -29,7 +29,7 @@ const VisionSection = () => {
             <li className='text-neutral-400'>
                 <span className='font-[400]'>Positive Interactions: </span> We believe in building positive and supportive interactions. Neebo is here to listen, learn, and offer encouragement.</li>
             <li className='text-neutral-400'>
-                <span className='font-[400]'>Empathetic Support: </span>Empathy is at the core of Neebo's design. Neebo is programmed to understand and respond to your needs with genuine empathy and understanding.</li>
+                <span className='font-[400]'>Empathetic Support: </span>Empathy is at the core of Neebo&apos;s design. Neebo is programmed to understand and respond to your needs with genuine empathy and understanding.</li>
           
           </ul>
         </div>
