@@ -15,7 +15,7 @@ const AudioSection = () => {
 
         <div className='pt-6 pb-24  float-end w-6/12'>
          <h3 className='featureSubText2'>Neebo elevates audio to an art form with its cutting-edge high-fidelity technology and superior Active Noise Cancellation. 
-          Each component of Neebo's custom-designed driver is meticulously crafted to produce sound with ultra-low distortion across the entire audible spectrum. From deep, rich bass to precise mids and crystal-clear highs, Neebo ensures you hear every note with unparalleled clarity.
+          Each component of Neebo&apos;s custom-designed driver is meticulously crafted to produce sound with ultra-low distortion across the entire audible spectrum. From deep, rich bass to precise mids and crystal-clear highs, Neebo ensures you hear every note with unparalleled clarity.
           Dive into an auditory experience where every sound is brought to life with exceptional detail and depth.
          </h3>
          </div>

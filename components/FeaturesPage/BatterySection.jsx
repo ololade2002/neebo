@@ -13,7 +13,7 @@ const BatterySection = () => {
         <h4 className='w-8/12 mx-auto text-center py-12 font-rale text-[22px]'>hours of continuous use, whether you&apos;re listening to music,
             watching movies, or engaging in conversations—all with Active Noise
             Cancellation and Spatial Audio enabled. Charging is simple and efficient 
-            via the Lightning connector. Plus, when you're in a hurry, a quick 5-minute
+            via the Lightning connector. Plus, when you&apos;re in a hurry, a quick 5-minute
             charge provides 1.5 hours of listening time, ensuring that Neebo is always 
             ready to support your busy lifestyle.
         </h4>
