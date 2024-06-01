@@ -3,10 +3,10 @@
 import React from 'react'
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 
-
 const HeroSection = () => {
   return (
     <section className=''>
+     
        <div className='relative'>
        <div className='text-white h-[60vh] px-14'>
            <div className='absolute top-16'>

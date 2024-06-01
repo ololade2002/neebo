@@ -6,14 +6,14 @@ import img from '@/public/img-neebo-11.webp'
 
 const HeroSection = () => {
   return (
-    <section className='absolute top-0 bg-black'>
-        <div className="hero-shadow"></div>
-        <main className='flex flex-row'>
-            <div className='w-6/12'>
-                <Image className='h-[110vh] object-center object-cover ' src={device} alt='Neebo device'/>
+    <section className='absolute top-0 bg-[#000] w-full'>
+        <div className="hero-shadow1"></div>
+        <main className='flex flex-row w-[100%]'>
+            <div className='flex-1'>
+                <Image className='h-[110vh] w-full object-center object-cover ' src={device} alt='Neebo device'/>
             </div>
-            <div className='w-6/12'>
-                <Image className='h-[110vh] object-center object-cover ' src={img} alt='Neebo'/>
+            <div className='flex-1'>
+                <Image className='h-[110vh] w-full object-center object-cover ' src={img} alt='Neebo'/>
             </div>
         </main>
         <div className='flex justify-between items-center px-11 py-8'>

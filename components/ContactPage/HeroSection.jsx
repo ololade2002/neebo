@@ -36,8 +36,6 @@ const HeroSection = () => {
         }
       };
     
-    
-
   return (
     <section className='h-[100vh]'>
         <main className='flex flex-row '>
@@ -55,7 +53,7 @@ const HeroSection = () => {
  
                 <div className='my-8 flex flex-col gap-0'>
                    <h2 className='text-white text-center text-[28px] xs:text-[32px] sm:text-[37px] font-rale'>Welcome back.</h2>
-                   <p className='text-neutral-400 font-[300] text-center text-[17px] font-rale'>Please tell us a bit about yourself so that we may review your request.</p>
+                   <p className='text-neutral-400 font-[300] py-2 text-center text-[17px] font-rale'>Please tell us a bit about yourself so that we may review your request.</p>
                  </div>
                   
                   <label className='border-teal-500' >

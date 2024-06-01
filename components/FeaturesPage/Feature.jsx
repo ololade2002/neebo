@@ -9,7 +9,6 @@ const Feature = () => {
     <div className='bg-black'>
         <HeroSection/>
         <Subsection/>
-      
     </div>
   )
 }

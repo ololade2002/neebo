@@ -3,7 +3,7 @@ import React from 'react'
 
 const TopContent = () => {
   return (
-    <section className='relative text-white flex flex-row items-start gap-32 px-11 mt-52 pb-20 pt-12'>
+    <section className='relative text-white flex flex-row items-start gap-32 px-11 mt-[7rem] 2xl:mt-28 pb-20 pt-12'>
         <div className='w-4/12 pt-6 '>
             <h3 className='font-mono text-[12px]'>THE BLEND OF SIMPLICITY AND INNOVATION</h3>
         </div>

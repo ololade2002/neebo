@@ -17,6 +17,15 @@
 .image-c {
   @apply w-full h-[100vh] object-cover rounded-xl
 }
+.featureSubText {
+  @apply text-[20px] font-rale  text-neutral-400
+}
+.featureMainText {
+  @apply  text-[100px] font-rale pt-6 capitalize font-[600] leading-[1.2]  text-white
+}
+.featureSubText2 {
+  @apply font-rale text-neutral-400 font-[300] leading-[1.5] text-[22px]
+}
 
 /*Form Section*/
 .form-input {
@@ -25,7 +34,7 @@
 
 /*Navbar Styles */
 .navText {
-  @apply font-rale uppercase px-3 font-[400] text-[13px] lg:text-[15px] hover:opacity-60
+  @apply font-rale uppercase px-3 font-[400] text-[22px] lg:text-[15px] hover:opacity-60
 }
 
 /* Footer Styles */
@@ -55,9 +64,7 @@
   background-color: transparent;
   z-index: 999;
 }
-
 .logo {
-
   position: fixed;
   top: 0;
   left: 50%;
@@ -65,27 +72,81 @@
   padding: 1em;
   z-index: 1000;
 }
-
 .container1 {
   width: 100%;
   height: 100vh;
   background-color: black;
 }
-
 .content {
   width: 100%;  
   height: 100vh;
   position: relative;
 }
-
 .content img {
   width: 100%;
 }
 .mobileNavbar {
   display: none;
 }
-@media screen and (max-width:768px) {
+.mobileNav {
+  display: none;
+}
+.menu {
+  display: none;
+  }
+
+  @media screen and (max-width:992px) {
+  .icon {
+    display: none;
+  }
+  .menu {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;  
+  }
+  .webNav {
+    display: none;
+  }
+  .menu>svg {
+    font-size: 1.9rem;
+    position: relative;
+    z-index: 4;
+  }
   .mobileNav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    position: absolute;
+    background-color: #000;
+    z-index: 4;
+    width: 100%;
+    
+    font-size: 22px;
+    gap: 2rem;
+    top: 0rem;
+    left: 0;
+    align-items: center;
+  }
+  .items-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 25px;
+  }
+  .items-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  }
+
+
+@media screen and (max-width:768px) {
+  .mobileNavbar {
     display: block;
   }
   .webNavigation {
@@ -94,6 +155,17 @@
 }
 
 /* Feature Page */
+.hero-shadow1 {
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(255, 255, 2555, 0));
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
 .hero-shadow {
   z-index: 3;
   width: 100%;
@@ -104,4 +176,26 @@
   bottom: auto;
   left: 0%;
   right: auto;
+}
+.audioText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  z-index: 12;
+}
+
+/*BlogPage*/
+.blogText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  z-index: 12;
 }

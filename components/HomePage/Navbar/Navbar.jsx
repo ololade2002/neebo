@@ -4,7 +4,6 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Link from 'next/link';
 import {useGSAP} from '@gsap/react'
-import MobileNavbar from './MobileNavbar'
 
 gsap.registerPlugin(useGSAP)
 gsap.registerPlugin(ScrollTrigger);
@@ -79,8 +78,8 @@ const Navbar = () => {
 
   return (
    <header>
-    <MobileNavbar/>
-     <div className='webNavigation'>
+   
+    <div className='webNavigation'>
       <div className="nav">
         <div className="items-left">
           <Link className='navText' href='/'>Home</Link>
@@ -88,7 +87,7 @@ const Navbar = () => {
           <Link className='navText' href='/features'>Features</Link>
         </div>
         <div className="items-right">
-          <Link className='navText' href='/collection'>Collection</Link>
+          <Link className='navText' href='/blog'>Blog</Link>
           <Link className='navText' href='/contact'>Contact</Link>
           <Link className='navText' href='/'>Cart</Link>
         </div>

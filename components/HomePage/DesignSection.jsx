@@ -8,6 +8,7 @@ import neebo4 from '@/public/neebo-device-8.webp'
 import neebo6 from '@/public/neebo-device-9.webp'
 import { designData } from '@/utils/utilsData'
 
+
 const DesignSection = () => {
   return (
     <section className='bg-[#dadada] pt-24'>
