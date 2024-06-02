@@ -12,44 +12,47 @@ const DesignSection = () => {
   return (
     <section className=''>
          <main className='relative'>
-            <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'60vw'  }}>
-             <ParallaxBannerLayer className='w-[100vw]  '  image='./neebo-device-9.webp' speed={-15} />
+           <div className='webContent'>
+           <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'120vh' }}>
+             <ParallaxBannerLayer className=' object-contain sm:object-cover w-[100vw]'  image='./neebo-device-9.webp' speed={-15} />
             </ParallaxBanner>
+           </div>
+            <Image className='mobileContent h-[70vh] w-full object-cover rounded-md' src={device} alt='Neebo device'/>
         </main>
 
-        <main className='flex py-24 px-12 gap-28'>
-        <div className='w-5/12 h-screen sticky top-20 '>
+        <main className='flex flex-col lg:flex-row py-24 px-4 lg:px-12 gap-4 lg:gap-28'>
+        <div className='w-full lg:w-5/12 relative lg:h-screen lg:sticky lg:top-20 '>
           <p className='uppercase font-mono text-[14px] text-neutral-300'>
             Design
           </p>
         </div>
 
-        <div className='w-7/12 ml-auto '>
-          <h1 className='text-[85px] text-[#fff] font-[600] capitalize font-rale leading-[1.1] pb-5'>Designed with You in Mind.</h1>  
-          <h2 className='font-rale text-[23px] text-neutral-400 font-[300] pb-5'>
+        <div className='w-full lg:w-7/12 ml-auto '>
+          <h1 className='text-[32px] xs:text-[40px] sm:text-[60px] lg:text-[85px] text-[#fff] font-[600] capitalize font-rale leading-[1.1] pb-5'>Designed with You in Mind.</h1>  
+          <h2 className='font-rale text-[20px] xs:text-[23px] text-neutral-400 font-[300] pb-5'>
           Neebo isn&apos;t just feature-rich, it&apos;s designed for effortless use. The sleek,
           minimalist form factor feels comfortable in your hand, crafted from polished aluminum that exude quality.
           The smooth, curved edges and lightweight design make it perfect for one-handed operation,
            whether you&apos;re on the go or relaxing at home.
           
           </h2>
-          <h2 className='font-rale text-[23px] text-neutral-400 font-[300] pb-5'>
+          <h2 className='font-rale text-[20px] xs:text-[23px] text-neutral-400 font-[300] pb-5'>
           The vibrant 4-inch OLED touchscreen is not only easy on the eyes but also a joy to navigate. Neebo&apos;s user interface is designed
           for clarity, with large, colorful icons and a clean layout that puts everything you need at your fingertips.Swiping through menus
           feels intuitive, and subtle haptic feedback confirms your actions for a satisfying user experience.
           </h2>
           <div className='flex flex-col gap-4 pt-3'>
-            <Image className='h-[70vh] w-full object-cover rounded-md' src={device} alt='Neebo device'/>
+            <Image className='h-[50vh] md:h-[70vh] w-full object-cover rounded-md' src={device} alt='Neebo device'/>
             <div className='flex flex-row gap-4'>
-            <Image className='h-[50vh] w-6/12 object-cover rounded-md' src={device2} alt='Neebo device'/>
-            <Image className='h-[50vh] w-6/12 object-cover rounded-md' src={device3} alt='Neebo device'/>
+            <Image className='h-[50vh] md:h-[50vh] w-6/12 object-cover rounded-md' src={device2} alt='Neebo device'/>
+            <Image className='h-[50vh] md:h-[50vh] w-6/12 object-cover rounded-md' src={device3} alt='Neebo device'/>
             </div>
           </div>
         </div>
       </main>
 
       <main className='relative'>
-            <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'60vw'  }}>
+            <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'100vh'  }}>
              <ParallaxBannerLayer className='w-[100vw] object-cover '  image='./img-neebo-3.webp' speed={-15} />
             </ParallaxBanner>
         </main>
