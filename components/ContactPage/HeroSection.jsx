@@ -38,12 +38,12 @@ const HeroSection = () => {
     
   return (
     <section className='h-[100vh]'>
-        <main className='flex flex-row '>
-          <div className='w-6/12'>
+        <main className='flex flex-col-reverse lg:flex-row '>
+          <div className='w-full lg:w-6/12'>
               <Image className='h-[100vh] object-cover' src={neebo} alt='Neebo Device'/>
           </div>
   
-          <div className='w-6/12 h-[100vh] bg-black px-[20px] sm:px-[40px] md:px-[70px] py-[48px]'>
+          <div className='w-full lg:w-6/12 h-[100vh] bg-black px-[20px] sm:px-[40px] md:px-[70px] py-[48px]'>
           <Link href='/'>
             <Image className='h-8 w-full mb-0 object-contain' src={logo} alt='Atlas logo'/>
             </Link>

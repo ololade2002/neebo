@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className='items-right'>
                 <Link className='navText text-white' href='/blog'>Blog</Link>
                 <Link className='navText text-white' href='/contact'>Contact</Link>
-                <Link className='navText text-white' href='/'>Cart</Link>
+                <Link href='/' className='navText text-white' >Cart</Link>
             </div>
         </div>
 

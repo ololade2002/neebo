@@ -6,10 +6,10 @@ import Image from 'next/image'
 
 const BlogList = () => {
   return (
-   <section className='py-24 px-4 lg:px-11 bg-[#181818]'>
-    <main className=' flex flex-col md:flex-row gap-8 lg:gap-5  justify-between'>
+   <section className='py-16 lg:py-24 px-4 lg:px-11 bg-[#181818]'>
+    <main className=' flex flex-col lg:flex-row gap-8 lg:gap-5 justify-between'>
       {blogData.map((blog) => (
-        <Link href={`/blog/${blog.id}`} className="w-full md:w-4/12" key={blog.id}>
+        <Link href={`/blog/${blog.id}`} className="w-full lg:w-4/12" key={blog.id}>
          <div className='flex flex-col gap-4'>
 
          <div className='w-[100%] lg:h-[80%] relative overflow-hidden '>

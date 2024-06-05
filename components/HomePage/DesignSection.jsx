@@ -11,7 +11,7 @@ import { designData } from '@/utils/utilsData'
 
 const DesignSection = () => {
   return (
-    <section className='bg-[#dadada] pt-20 lg:pt-24'>
+    <section className='bg-[#dadada] pt-10 lg:pt-24'>
       <main className='relative text-black flex flex-col lg:flex-row items-start gap-4 lg:gap-32 px-4 lg:px-11 pb-16 lg:pb-20'>
        <div className='w-full lg:w-5/12 pt-6 '>
         <h3 className='font-mono text-[#111111] text-[12px]'>THE BLEND OF EFFORTLESS INGENUITY AND SMART SIMPLICITY</h3>

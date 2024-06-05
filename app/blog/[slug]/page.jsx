@@ -18,13 +18,13 @@ const BlogDetails = ({params}) => {
         <Image className=' object-cover h-[85vh] object-center w-screen  ' src={selectedBlog.img} alt='Neebo Device'/>
         <div className="hero-shadow1"></div>
         <div className='  blogText  z-50'>
-         <h2 className='text-[75px] font-rale font-[500] w-9/12 mx-auto text-[#fff] leading-[1.3]'>{selectedBlog.title}</h2>
+         <h2 className='text-[30px] sm:text-[60px] lg:text-[75px] font-rale font-[500] w-full lg:w-9/12 mx-auto text-[#fff] leading-[1.3]'>{selectedBlog.title}</h2>
         </div>
         </div>
        </main>
 
-       <main className='relative top-[70vh] pt-16  bg-[#ecebe9]'>
-        <div className='w-8/12 pb-24 flex flex-col text-[#161515] font-[400] gap-4 font-rale text-[20px] justify-center items-center mx-auto'>
+       <main className='relative top-[70vh] pt-12 lg:pt-16  bg-[#ecebe9]'>
+        <div className=' w-full px-4 lg:w-8/12 pb-10 lg:pb-24 flex flex-col text-[#161515] font-[400] gap-4 font-rale text-[20px] justify-center items-center mx-auto'>
         <h2 className=''>{selectedBlog.mainText}</h2>
         <h2 className=''>{selectedBlog.text1}</h2>
         <h2 className=''>{selectedBlog.text2}</h2>

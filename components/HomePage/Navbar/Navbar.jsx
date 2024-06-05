@@ -32,6 +32,14 @@ const Navbar = () => {
       ease: 'power1.inOut',
       duration:5,
     })
+    .fromTo ('.heroSubText', {
+       opacity:1,
+       y:0,
+       ease:'back.inOut'
+    }, {
+      opacity:0,
+      y:0,
+    })
     .fromTo('.navText', {
       opacity: 0,
       y: 50,
@@ -89,11 +97,16 @@ const Navbar = () => {
         <div className="items-right">
           <Link className='navText' href='/blog'>Blog</Link>
           <Link className='navText' href='/contact'>Contact</Link>
-          <Link className='navText' href='/'>Cart</Link>
+          <Link href='/' className='navText' >Cart</Link>
         </div>
       </div>
       <div className="logo-container">
         <h1 className="logo font-rale">neebo</h1>
+        <div className='heroSubText absolute bottom-[7%] left-4 lg:left-11  '>
+        <p className='font-mono text-[#ececec] uppercase text-[15px] font-[400]'>2024</p>
+        <p className='font-mono text-[#ececec] uppercase text-[15px] font-[400]'>Neebo industries</p>
+       </div>  
+        
       </div>
       <div className="container1"></div>
     </div>

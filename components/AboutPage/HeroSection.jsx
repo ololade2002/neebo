@@ -9,7 +9,7 @@ const HeroSection = () => {
      
        <div className='relative'>
        <div className='text-white h-[60vh] lg:px-14'>
-           <div className='absolute right-4 bottom-6 lg:top-16'>
+           <div className='absolute left-11 lg:bottom-12'>
             <p className='font-mono text-[14px] text-neutral-400 uppercase'>Neebo industry</p>
             <p className='font-mono text-[14px] text-neutral-400 uppercase'>(2024)</p>
            </div>
