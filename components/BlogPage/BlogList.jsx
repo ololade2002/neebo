@@ -15,7 +15,7 @@ const BlogList = () => {
          <div className='w-[100%] lg:h-[80%] relative overflow-hidden '>
             <Image className='h-[60vh] lg:h-[50vh] object-cover rounded-md hover:scale-110 transition duration-[0.9s] cursor-pointer'  src={blog.img} alt='Neebo Device'/>
          </div>
-          <h2 className='text-white font-rale text-[25px] lg:h-[20vh] '>{blog.title}</h2>
+          <h2 className='text-white font-rale hover:text-neutral-400 text-[25px] lg:h-[20vh]  2xl:h-[20vh] 3xl:h-[15vh] '>{blog.title}</h2>
           <p className='text-neutral-400 font-rale flex gap-2 font-[400]'>Press <span className='text-white'>|</span> <span className='hover:underline'>{blog.press}</span></p>
          </div>
         </Link>

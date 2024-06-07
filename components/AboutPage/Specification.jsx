@@ -26,9 +26,9 @@ const Specification = () => {
         <div className='w-full lg:w-7/12 ml-auto '>
           {specificationData.map((spec) => (
             <div className="spec-preview" key={spec.id}>
-                <div className='flex flex-col xs:flex-row gap-4 xs:gap-8 lg:gap-16 justify-between'>
+                <div className='flex flex-col xs:flex-row gap-4 xs:gap-6 lg:gap-16 justify-between'>
                   <h2 className='w-full xs:w-4/12 text-white font-rale font-[400] text-[22px]'>{spec.text}</h2>
-                  <h2 className='w-full xs:w-8/12 text-neutral-400 font-rale font-[300] text-[20px]'>{spec.text2}</h2>
+                  <h2 className='w-full xs:w-8/12  text-neutral-400 font-rale font-[300] text-[20px]'>{spec.text2}</h2>
                 </div>
                 <div className='h-[1px] my-6 w-full bg-white opacity-15'></div>
             </div>

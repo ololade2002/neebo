@@ -6,7 +6,7 @@ import React from 'react'
 import logo from '@/public/Neebo-logo.svg'
 import { useState } from 'react'
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/20/solid'
-import {BsBag} from 'react-icons/bs'
+
 
 const Navbar = () => {
     const [mobile,setMobile] = useState(false)
@@ -44,25 +44,3 @@ const Navbar = () => {
 
 export default Navbar
 
-
-/*
- <header className='relative z-50'>
-        <div className='flex flex-row justify-between items-center px-11 w-[100%]  h-[80px]'>
-            <div className='items-left'>
-                <Link className='navText text-white' href='/'>Home</Link>
-                <Link className='navText text-white' href='/about'>About</Link>
-                <Link className='navText text-white' href='/features'>Features</Link>
-            </div>
-
-            <div>
-                <Image className='h-8 w-8' src={logo} alt='Neebo-logo'/>
-            </div>
-
-            <div className='items-right'>
-                <Link className='navText text-white' href='/blog'>Blog</Link>
-                <Link className='navText text-white' href='/contact'>Contact</Link>
-                <Link className='navText text-white' href='/'>Cart</Link>
-            </div>
-        </div>
-    </header>
-*/

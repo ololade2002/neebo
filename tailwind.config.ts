@@ -22,7 +22,7 @@ const config: Config = {
         'lg': '992px',
         'xl': '1024px',
         '2xl': '1280px',
-        '3xl': '1536px',
+        '3xl': '1400px',
       } , 
       colors: {
         'white' :'#fff',

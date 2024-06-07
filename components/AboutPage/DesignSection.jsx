@@ -17,7 +17,7 @@ const DesignSection = () => {
              <ParallaxBannerLayer className=' object-contain sm:object-cover w-[100vw]'  image='./neebo-device-9.webp' speed={-15} />
             </ParallaxBanner>
            </div>
-            <Image className='mobileContent h-[70vh] w-full object-cover rounded-md' src={device} alt='Neebo device'/>
+            <Image className='mobileContent h-[70vh] w-full object-cover ' src={device} alt='Neebo device'/>
         </main>
 
         <main className='flex flex-col lg:flex-row py-24 px-4 lg:px-12 gap-4 lg:gap-28'>
@@ -41,13 +41,20 @@ const DesignSection = () => {
           for clarity, with large, colorful icons and a clean layout that puts everything you need at your fingertips.Swiping through menus
           feels intuitive, and subtle haptic feedback confirms your actions for a satisfying user experience.
           </h2>
-          <div className='flex flex-col gap-4 pt-3'>
-            <Image className='h-[50vh] md:h-[70vh] w-full object-cover rounded-md' src={device} alt='Neebo device'/>
-            <div className='flex flex-row gap-4'>
-            <Image className='h-[50vh] md:h-[50vh] w-6/12 object-cover rounded-md' src={device2} alt='Neebo device'/>
-            <Image className='h-[50vh] md:h-[50vh] w-6/12 object-cover rounded-md' src={device3} alt='Neebo device'/>
-            </div>
+
+          <div className=' flex flex-col-reverse gap-3 lg:gap-4'> 
+          <div className='flex flex-row items-center justify-center gap-3 lg:gap-4'>
+          <div className='w-6/12'>
+            <Image className='h-[60vw] lg:h-[60vh] rounded-md object-cover' src={device3} alt='neebo device'/>
+           </div>
+           <div className='w-6/12'>
+            <Image className='h-[60vw] lg:h-[60vh] rounded-md object-cover' src={device2} alt='neebo device'/>
+           </div>
+         </div>
+         <div className=' mx-auto   '>
+            <Image className='h-[70vw] lg:h-[70vh] w-[100vw] rounded-md object-cover object-center' src={device} alt='neebo device'/>
           </div>
+        </div>
         </div>
       </main>
 

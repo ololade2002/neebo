@@ -34,7 +34,7 @@
 
 /*Navbar Styles */
 .navText {
-  @apply font-rale uppercase px-3 font-[400] text-[22px] lg:text-[15px] hover:opacity-60
+  @apply font-rale uppercase px-3 font-[400] text-[24px] hover:text-neutral-400 lg:text-[15px] hover:opacity-60
 }
 
 /* Footer Styles */
@@ -42,13 +42,13 @@
   @apply flex flex-col gap-2 lg:gap-5
 }
 .footer-text {
-  @apply font-rale font-[500] text-[20px]  text-[#111111]
+  @apply font-rale font-[500] text-[24px] lg:text-[20px]  text-[#111111]
 }
 .footer-ul {
   @apply flex flex-col gap-2
 }
 .footer-li {
-  @apply font-rale text-[16px] text-[#7e7e7e] hover:text-black
+  @apply font-rale text-[20px] lg:text-[16px] text-[#7e7e7e] hover:text-black
 }
 
 .parallaxImage {

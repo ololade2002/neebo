@@ -42,7 +42,7 @@ const Footer = () => {
         <div className='footer-head '>
             <h2 className='footer-text'>Sign up for our newsletter</h2>
             <div className='flex w-full flex-row gap-0'>
-            <input type='email' className='py-3 px-4 w-full lg:w-[18vw] bg-[#bebebe66] text-rale placeholder:text-[rgba(0,0,0,0.6)] font-rale' placeholder='Enter your email'/>
+            <input type='email' className='py-3 px-4 w-full lg:w-[18vw] bg-[#bebebe66] text-rale placeholder:text-[20px] lg:placeholder:text-[16px] placeholder:text-[rgba(0,0,0,0.6)] font-rale' placeholder='Enter your email'/>
             <div className='bg-[#bebebe66] flex items-center justify-center px-3'>
                 <IoArrowForward className='text-[20px]'/>
             </div>
