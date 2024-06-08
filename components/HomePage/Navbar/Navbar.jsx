@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Link from 'next/link';
 import {useGSAP} from '@gsap/react'
+import Link from 'next/link';
 
 gsap.registerPlugin(useGSAP)
 gsap.registerPlugin(ScrollTrigger);
@@ -49,7 +49,13 @@ const Navbar = () => {
       y: 0,
       duration: 1,
       ease: 'power1.inOut',
-      color:'#fff'
+      color:'#fff',
+      stagger : {
+        each:0.5,
+        from: 'left',
+        ease: 'power2.inOut',
+        
+      }
     }, 0); 
 
     return () => {
@@ -102,7 +108,7 @@ const Navbar = () => {
       </div>
       <div className="logo-container">
         <h1 className="logo font-rale">neebo</h1>
-        <div className='heroSubText absolute bottom-[7%] left-4 lg:left-11  '>
+        <div className='heroSubText navbarSubText absolute bottom-[7%] left-4 lg:left-11  '>
         <p className='font-mono text-[#ececec] uppercase text-[15px] font-[400]'>2024</p>
         <p className='font-mono text-[#ececec] uppercase text-[15px] font-[400]'>Neebo industries</p>
        </div>  

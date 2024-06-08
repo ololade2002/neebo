@@ -1,14 +1,39 @@
 
 "use client"
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import {useGSAP} from '@gsap/react'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import logo from '@/public/Neebo-logo.svg'
 import { useState } from 'react'
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/20/solid'
 
+gsap.registerPlugin(useGSAP)
+gsap.registerPlugin(ScrollTrigger);
 
 const Navbar = () => {
+    useGSAP(() => {
+        gsap.fromTo('.navText', 
+        {
+            opacity: 0,
+            y: 50,
+            
+        },
+        {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power1.inOut',
+            stagger : {
+              each:0.2,
+              from: 'left',
+              ease: 'power2.inOut',
+        }
+    }
+    )
+    }, 0)
     const [mobile,setMobile] = useState(false)
 
   return (
@@ -22,13 +47,13 @@ const Navbar = () => {
             </div>
 
             <div className='webNav'>
-                <Image className='h-8 w-8' src={logo} alt='Neebo-logo'/>
+                <Image className='navTextt h-8 w-8' src={logo} alt='Neebo-logo'/>
             </div>
 
             <div className='items-right'>
                 <Link className='navText text-white' href='/blog'>Blog</Link>
                 <Link className='navText text-white' href='/contact'>Contact</Link>
-                <Link href='/' className='navText text-white' >Cart</Link>
+                <Link href='/' className='navText  text-white' >Cart</Link>
             </div>
         </div>
 

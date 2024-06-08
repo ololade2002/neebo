@@ -7,8 +7,10 @@ import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import device from '@/public/neebo-device-10.webp'
 import device2 from '@/public/neebo-device-14.webp'
 import device3 from '@/public/neebo-device-13.webp'
+import useTextAnimation from '@/hooks/useTextAnimation'
 
 const DesignSection = () => {
+  useTextAnimation('.subTextt')
   return (
     <section className=''>
          <main className='relative'>
@@ -22,13 +24,13 @@ const DesignSection = () => {
 
         <main className='flex flex-col lg:flex-row py-24 px-4 lg:px-12 gap-4 lg:gap-28'>
         <div className='w-full lg:w-5/12 relative lg:h-screen lg:sticky lg:top-20 '>
-          <p className='uppercase font-mono text-[14px] text-neutral-300'>
-            Design
+          <p className='subTextt uppercase font-mono text-[14px] text-neutral-300'>
+            Designed for you
           </p>
         </div>
 
         <div className='w-full lg:w-7/12 ml-auto '>
-          <h1 className='text-[32px] xs:text-[40px] sm:text-[60px] lg:text-[85px] text-[#fff] font-[600] capitalize font-rale leading-[1.1] pb-5'>Designed with You in Mind.</h1>  
+          <h1 className=' text-[32px] xs:text-[40px] sm:text-[60px] lg:text-[85px] text-[#fff] font-[600] capitalize font-rale leading-[1.1] pb-5'>Designed with You in Mind.</h1>  
           <h2 className='font-rale text-[20px] xs:text-[23px] text-neutral-400 font-[300] pb-5'>
           Neebo isn&apos;t just feature-rich, it&apos;s designed for effortless use. The sleek,
           minimalist form factor feels comfortable in your hand, crafted from polished aluminum that exude quality.
@@ -51,7 +53,7 @@ const DesignSection = () => {
             <Image className='h-[60vw] lg:h-[60vh] rounded-md object-cover' src={device2} alt='neebo device'/>
            </div>
          </div>
-         <div className=' mx-auto   '>
+         <div className=' mx-auto'>
             <Image className='h-[70vw] lg:h-[70vh] w-[100vw] rounded-md object-cover object-center' src={device} alt='neebo device'/>
           </div>
         </div>
@@ -59,7 +61,7 @@ const DesignSection = () => {
       </main>
 
       <main className='relative'>
-            <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'100vh'  }}>
+            <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'120vh'  }}>
              <ParallaxBannerLayer className='w-[100vw] object-cover '  image='./img-neebo-3.webp' speed={-15} />
             </ParallaxBanner>
         </main>

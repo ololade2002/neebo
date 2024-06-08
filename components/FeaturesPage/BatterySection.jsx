@@ -3,14 +3,17 @@ import Image from 'next/image'
 import React from 'react'
 import pattern from '@/public/neebo-device-10.webp'
 import icon from '@/public/ar_icon.png'
+import useTextAnimation from '@/hooks/useTextAnimation'
 
 const BatterySection = () => {
+  useTextAnimation('.subTextt')
+  
   return (
     <section className='bg-[#fff]  pt-20  lg:py-24'>
       <main className='px-4 lg:px-11 mx-auto text-center'>
-        <h4 className='w-full lg:w-8/12 text-center mx-auto text-[32px] xs:text-[37px] sm:text-[60px] lg:text-[70px] font-[700] text-[#1d1d1f] leading-[1.1]  font-rale'>A battery that keeps stayin&apos; alive.</h4>
+        <h4 className='w-full subTextt lg:w-8/12 text-center mx-auto text-[32px] xs:text-[37px] sm:text-[60px] lg:text-[70px] font-[700] text-[#1d1d1f] leading-[1.1]  font-rale'>A battery that keeps stayin&apos; alive.</h4>
         <h1 className='pt-4 text-[150px] lg:text-[600px] leading-[0.8] font-[500]'>20</h1>
-        <h4 className='w-full  lg:w-8/12 mx-auto lg:text-center py-8 lg:py-12 font-rale text-[20px] text-justify xs:text-[22px]'>hours of continuous use, whether you&apos;re listening to music,
+        <h4 className='w-full subTextt lg:w-8/12 mx-auto lg:text-center py-8 lg:py-12 font-rale text-[20px] text-justify xs:text-[22px]'>hours of continuous use, whether you&apos;re listening to music,
             watching movies, or engaging in conversations—all with Active Noise
             Cancellation and Spatial Audio enabled. Charging is simple and efficient 
             via the Lightning connector. Plus, when you&apos;re in a hurry, a quick 5-minute

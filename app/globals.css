@@ -210,3 +210,15 @@ display: none;
   width: 100%;
   z-index: 12;
 }
+
+.image-reveal-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-reveal-overlay {
+  position: absolute;
+  inset: 0;
+  background: black; 
+  z-index: 10;
+}

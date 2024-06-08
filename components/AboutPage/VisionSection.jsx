@@ -1,12 +1,15 @@
-
+"use client"
 import React from 'react'
+import useTextAnimation from '@/hooks/useTextAnimation'
 
 const VisionSection = () => {
+  useTextAnimation('.subTextt');
+
   return (
     <section className='px-4 lg:px-12 pt-0 pb-24'>
           <main className='flex flex-col lg:flex-row gap-4 lg:gap-28'>
         <div className='w-full lg:w-5/12 lg:h-screen lg:sticky lg:top-20 '>
-          <p className='uppercase font-mono text-[14px] text-neutral-300'>
+          <p className='subTextt uppercase font-mono text-[14px] text-neutral-300'>
           The Neebo Promise: User-Friendly and Supportive
           </p>
         </div>

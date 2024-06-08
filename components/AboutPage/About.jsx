@@ -1,5 +1,7 @@
-
-import React from 'react'
+"use client"
+import React, {useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbar from '../NavbarSection/Navbar'
 import HeroSection from './HeroSection'
 import ImpactSection from './ImpactSection'
@@ -9,6 +11,9 @@ import DesignSection from './DesignSection'
 import Footer from '../Footer/Footer'
 
 const About = () => {
+  useEffect(() => {
+    AOS.init()
+    },[])  
   return (
     <div className='bg-black'>
         <Navbar/>

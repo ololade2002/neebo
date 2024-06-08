@@ -2,13 +2,16 @@
 "use client"
 import React from 'react'
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
+import useTextAnimation from '@/hooks/useTextAnimation'
 
 const ImpactSection = () => {
+  useTextAnimation('.subTextt');
+
   return (
     <section className='text-white py-24'>
       <main className='flex flex-col lg:flex-row pb-24 px-4 lg:px-12 gap-4 lg:gap-28'>
         <div className='w-full lg:w-5/12 lg:h-screen relative lg:sticky lg:top-20 '>
-          <p className='uppercase font-mono text-[14px] text-neutral-300'>
+          <p className='subTextt uppercase font-mono text-[14px] text-neutral-300'>
             About Neebo: Your AI Companion for a Brighter Tomorrow
           </p>
         </div>

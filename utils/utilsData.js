@@ -22,7 +22,7 @@ export const featuresData = [
         id:2,
         img:img2,
         text:'Personalized AI',
-        desc:'Tailors its responses and tasks to your preferences and habits, offering a truly personalized assistant experience.',
+        desc:'Tailors its responses and tasks to your unique preferences, habits, and individual needs, ensuring that every interaction is customized to suit your lifestyle.',
         alt:'Bulb-icon'
     },
     {
