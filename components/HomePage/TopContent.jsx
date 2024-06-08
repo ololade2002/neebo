@@ -9,7 +9,7 @@ const TopContent = () => {
   return (
     <section className='relative text-white flex flex-col lg:flex-row items-start gap-2 lg:gap-32 px-4 lg:px-11 pb-14 lg:pb-20 pt-12'>
         <div className='w-full lg:w-4/12 pt-6 '>
-            <h3 className='subTextt font-mono text-[13px] pb-4 lg:pb-0 lg:text-[12px]'>THE BLEND OF SIMPLICITY AND INNOVATION</h3>
+            <h3 className='subTextt font-mono text-[15px] pb-4 lg:pb-0 lg:text-[12px]'>THE BLEND OF SIMPLICITY AND INNOVATION</h3>
         </div>
         <div  className='w-full lg:w-8/12 flex flex-col gap-6'>
             <h1 className=' font-rale text-pretty text-[30px] md:text-[45px] text-white'>

@@ -18,7 +18,7 @@ const DesignSection = () => {
     <section className='bg-[#dadada] pt-10 lg:pt-24'>
       <main className='relative text-black flex flex-col lg:flex-row items-start gap-4 lg:gap-32 px-4 lg:px-11 pb-16 lg:pb-20'>
        <div className='w-full lg:w-5/12 pt-6 '>
-        <h3 className='subText1 font-mono text-[#111111] text-[12px]'>THE BLEND OF EFFORTLESS INGENUITY AND SMART SIMPLICITY</h3>
+        <h3 className='subText1 font-mono text-[#111111] text-[15px] lg:text-[12px]'>THE BLEND OF EFFORTLESS INGENUITY AND SMART SIMPLICITY</h3>
        </div>  
        <div className='w-full lg:w-7/12  flex flex-col gap-6'>
         <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100" className='text-[32px] xs:text-[45px] sm:text-[50px] lg:text-[85px] text-[#000] font-[600] capitalize font-lato leading-[1.2] '>Designed to make your daily life simpler.</h1>
